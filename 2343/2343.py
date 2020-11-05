@@ -1,10 +1,5 @@
 def create_matrix(lines, columns):
-    matrix = []
-    for i in range(lines+1):
-        matrix.append([])
-        for j in range(columns+1):
-            matrix[i].append(0)
-
+    matrix = [[0 for i in range(columns)]for i in range(lines)]
     return matrix
 
 
